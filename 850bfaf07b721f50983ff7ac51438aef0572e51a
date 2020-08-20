@@ -1,0 +1,1 @@
+{"jobID":"b02fa6a1-8523-efe3-d2c7-1ce69dbe262d","spec":{"type":"policy","cause":{"Message":"","User":"Scott Lillibridge \u003cscott.lillibridge@gmail.com\u003e"},"spec":{"demo:deployment/podinfo":{"add":{"tag.podinfod":"glob:3.2.*"},"remove":{}}}},"result":null}
