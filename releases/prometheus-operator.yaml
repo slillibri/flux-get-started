@@ -6,7 +6,7 @@ metadata:
   namespace: monitoring
   annotations:
     fluxcd.io/automated: "true"
-    fluxcd.io/tag.chart-image: semver:~4.0
+    fluxcd.io/tag.chart-image: semver:~0.31
 spec:
   releaseName: prometheus-operator
   chart:
