@@ -12,3 +12,12 @@ spec:
     repository: https://charts.bitnami.com/bitnami
     name: prometheus-operator
     version: 0.31.0
+  values:
+    alertmanager:
+      alertmanagerSpec:
+        priorityClassName: default
+    prometheus:
+      prometheusSpec:
+        priorityClassName: default
+    nodeExporter:
+      enabled: false
