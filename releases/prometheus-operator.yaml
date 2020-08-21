@@ -1,0 +1,15 @@
+---
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: prometheus-operator
+  namespace: monitoring
+  annotations:
+    fluxcd.io/automated: "true"
+    fluxcd.io/tag.chart-image: semver:~4.0
+spec:
+  releaseName: prometheus-operator
+  chart:
+    repository: https://charts.bitnami.com/bitnami
+    name: prometheus-operator
+    version: 0.31.0
