@@ -19,5 +19,3 @@ spec:
     prometheus:
       prometheusSpec:
         priorityClassName: default
-    nodeExporter:
-      enabled: false
