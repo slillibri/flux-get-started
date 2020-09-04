@@ -14,3 +14,4 @@ spec:
     version: v1.0.1
   values:
     installCRDs: true
+    prometheus.serviceMonitor.enabled: true
