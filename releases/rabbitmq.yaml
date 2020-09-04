@@ -1,0 +1,16 @@
+---
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: rabbitmq
+  namespace: rabbitmq
+  annotations:
+    fluxcd.io/automated: "true"
+spec:
+  releaseName: rabbitmq
+  chart:
+    name: stable/rabbitmq-ha
+    version: 1.47.0
+  values:
+    existingSecret: "jpoprabbit"
+    
