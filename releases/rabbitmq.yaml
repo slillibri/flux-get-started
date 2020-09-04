@@ -9,8 +9,9 @@ metadata:
 spec:
   releaseName: rabbitmq
   chart:
-    name: stable/rabbitmq-ha
+    repository: https://kubernetes-charts.storage.googleapis.com/
+    name: rabbitmq-ha
     version: 1.47.0
   values:
     existingSecret: "jpoprabbit"
-    
+
